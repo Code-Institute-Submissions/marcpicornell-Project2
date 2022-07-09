@@ -18,6 +18,8 @@ Or if you prefer: HTML, CSS and lastly JAVASCRIPT.
 You can have more information about the testing applied to this project in a dedicated file.
 [TEST.md](TEST.md)
 
+## Bugs
+Known bugs:
 ## Deployment
 
 ## Credits
