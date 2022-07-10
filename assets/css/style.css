@@ -37,5 +37,17 @@ a,ul {
 */
 
 .wrapper {
-    max-width: 600px;
+    max-width: 30rem;
+
+    margin-left: auto;
+    margin-left: auto;
+
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+
+}
+
+@media screen (min-width: ) and (max-width: )
+{
+    
 }
