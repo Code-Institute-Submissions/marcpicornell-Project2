@@ -30,6 +30,12 @@ Explain the rules and especialy the Spock and Lizard part. They are the extensio
 ### Contact
 ### About
 
+### Images
+Each image were extracted from the main banner listed in Credits.
+I made a PNG with alpha channel to keep the ßtransparent background.
+I then convert them using (WEBP converter)[https://cloudconvert.com/webp-converter].
+
+
 ## Testing
 
 You can have more information about the testing applied to this project in a dedicated file.
@@ -52,6 +58,7 @@ To use the custom domain, you must in your repo:
 e.g.: www.rpsls.io
 
 ## Credits
+Image source: https://www.pngwing.com/en/free-png-iiamd
 
 ### Content
 
