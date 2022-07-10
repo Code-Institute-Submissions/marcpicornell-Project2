@@ -1,0 +1,4 @@
+#
+# Block indexing for every user-agent
+#
+User-agent: * Disallow: /
