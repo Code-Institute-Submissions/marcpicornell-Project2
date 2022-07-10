@@ -35,3 +35,7 @@ a,ul {
 /*
     Class Selector
 */
+
+.wrapper {
+    max-width: 600px;
+}
