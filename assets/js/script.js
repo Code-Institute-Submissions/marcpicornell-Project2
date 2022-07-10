@@ -42,3 +42,8 @@ function whoWin()
 {
 
 }
+
+function playSound()
+{
+    
+}
