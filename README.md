@@ -60,6 +60,8 @@ e.g.: www.rpsls.io
 ## Credits
 Image source: https://www.pngwing.com/en/free-png-iiamd
 Favicon generated with: https://favicon.io/favicon-generator/
+Useful mediaqueries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+
 
 ### Content
 
