@@ -59,6 +59,7 @@ e.g.: www.rpsls.io
 
 ## Credits
 Image source: https://www.pngwing.com/en/free-png-iiamd
+Favicon generated with: https://favicon.io/favicon-generator/
 
 ### Content
 
