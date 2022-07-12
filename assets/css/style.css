@@ -8,7 +8,9 @@
 /* 
     Fonts
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* 
     Variables
 */
@@ -18,6 +20,7 @@
 */
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -39,27 +42,51 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: fit-content;
     width: 100%;
-    height: auto;
     background-color: black;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #333;
 }
 
 li {
+    padding-left: 1rem;
     list-style: none;
+    float: left;
 }
 
-a {
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: sticky;
 }
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
 
 /*
     Class Selector
 */
 
-
 @media (min-width: 1281px) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;
@@ -73,7 +100,8 @@ a {
   }
   
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;
@@ -87,7 +115,8 @@ a {
     }
   }
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;
@@ -101,7 +130,8 @@ a {
     }
   }
   
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;
@@ -115,7 +145,8 @@ a {
     }
   }
   
-  @media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;
@@ -130,7 +161,8 @@ a {
     
   }
   
-  @media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
+
     .wrapper {    
         margin-left: auto;
         margin-right: auto;

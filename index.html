@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Marc Picornell">
         <meta name="license" content="">
-        <meta name="robots" content="noindex">
         <meta name="keyword" content="Rock, Paper, Scissors, Lizard, Spock">
 
         <link rel="stylesheet" href="assets/css/style.css">
@@ -22,40 +21,43 @@
 
     </head>
     <body>
-        <header>
-            <nav class="nav">
-                <ul class="menu">
-                    <li><a href=index.html>Play</a></li>
-                    <li><a href=assets/html/score.html>Scores</a></li>
-                    <li><a href=assets/html/rules.html>Rules</a></li>
+        <header role="banner">
+            <nav class="navigation" role="navigation" aria-label="mainnav">
+                <ul>
+                    <li><a href="index.html">Play</a></li>
+                    <li><a href="assets/rules.html">Rules</a></li>
+                    <li><a href="assets/score.html">Score</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="game-area">
-                <div class="human-game">
-                    <section>
-                        <p>This is the human game area</p>
-                    </section>
-                </div>
-                <div class="game-choice">
-                    <section>
-                        <p>This is the human choice for the game</p>
-                    </section>
-                </div>
-                <div class="computer-game">
-                    <section>
-                        <p>This is the computer game area</p>
-                    </section>
-                </div>
-                <div class="score">
-                    <section class="score">
-                        <p>This is the score area</p>
-                    </section>
-                </div>
+        <main class="game-area" role="main">
+            <div class="human-game">
+                <section>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name">
+                    </form>
+                    <p>This is the human game area</p>
+                </section>
+            </div>
+            <div class="game-choice">
+                <section>
+                    <p>This is the human choice for the game</p>
+                </section>
+            </div>
+            <div class="computer-game">
+                <section>
+                    <p>This is the computer game area</p>
+                </section>
+            </div>
+            <div class="score">
+                <section class="score">
+                    <p>This is the score area</p>
+                </section>
             </div>
         </main>
-        <footer>
+        <footer role="contentinfo">
+            <p>This is the footer of the website</p>
         </footer>
         <script src="assets/js/script.js" async defer></script>
     </body>
