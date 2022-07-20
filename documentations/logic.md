@@ -25,3 +25,6 @@ Add score to the winner
 Display who is the winner
 Display score
 Restart 
+
+### Truth Table
+![Table](rpsls.png)
