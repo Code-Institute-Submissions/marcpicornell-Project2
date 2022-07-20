@@ -20,8 +20,9 @@
     Drop me an email: marc@marcpicornell.com.
 
 # WHY THIS
-The Rock, Paper, Sizor ... wasn't really my first choice but I have already a day job who kept me very busy during the last few weeks.
-I am finding incredibly hard to find the time required for Code Institute.
 
-By definition I will try to focuss on how to deliver in a timely fashion.
+    The Rock, Paper, Sizor ... wasn't really my first choice but I have already a day job who kept me very busy during the last few weeks.
+    I am finding incredibly hard to find the time required for Code Institute but you do not do a carrier change without making some sacrifice.
+
+    NO PAIN NO GAIN
 
