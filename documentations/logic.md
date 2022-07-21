@@ -27,4 +27,5 @@ Display score
 Restart 
 
 ### Truth Table
-![Table](rpsls.png)
+[Table](rpsls.png)
+Source: [https://eduherminio.github.io/blog/rock-paper-scissors-lizard-spock/](rpsls.png)
